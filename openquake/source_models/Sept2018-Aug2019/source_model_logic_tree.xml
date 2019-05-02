@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+    <logicTree logicTreeID="lt1">
+        <logicTreeBranchingLevel branchingLevelID="bl1">
+            <logicTreeBranchSet uncertaintyType="sourceModel"
+                                branchSetID="bs1">
+                <logicTreeBranch branchID="mmin5pt0_mmax7pt2">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt0_Mmax7pt2.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.088</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt3_mmax7pt2">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt3_Mmax7pt2.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.22</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt5_mmax7pt2">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt5_Mmax7pt2.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.132</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt0_mmax7pt5">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt0_Mmax7pt5.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.082</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt3_mmax7pt5">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt3_Mmax7pt5.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.205</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt5_mmax7pt5">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt5_Mmax7pt5.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.123</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt0_mmax8pt0">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt0_Mmax8pt0.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.03</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt3_mmax8pt0">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt3_Mmax8pt0.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.075</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="mmin5pt5_mmax8pt0">
+		    <uncertaintyModel>CSHM_Sept2018-Aug2019_Mmin5pt5_Mmax8pt0.xml</uncertaintyModel>
+                    <uncertaintyWeight>0.045</uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+    </logicTree>
+</nrml>
